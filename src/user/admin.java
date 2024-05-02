@@ -2,7 +2,7 @@
 package user;
 
 public class admin extends user{
-        private String username;
+    private String username;
     private String password;
     
     public admin(String username, String password){
