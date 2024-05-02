@@ -1,6 +1,5 @@
-
-import java.sql.*;
-import java.util.Arrays;
+//GEN-FIRST:event_txtUsernameActionPerformed
+import java.sql.*;//GEN-LAST:event_txtUsernameActionPerformed
 
 public class NewJFrame extends javax.swing.JFrame {
     
@@ -31,7 +30,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -62,7 +61,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         txtUsername.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUsernameActionPerformed(evt);
+                actionPerformed(evt);
             }
         });
 
@@ -76,7 +75,7 @@ public class NewJFrame extends javax.swing.JFrame {
         btnregis.setText("REGISTER");
         btnregis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnregisActionPerformed(evt);
+                actionPerformed(evt);
             }
         });
 
@@ -136,17 +135,10 @@ public class NewJFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
+                                         
 
-    private void btnregisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnregisActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnregisActionPerformed
-
-    private void txtUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsernameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtUsernameActionPerformed
-
-    private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
+    private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {                                         
         String query,username,password;
 //      
         
@@ -179,11 +171,11 @@ public class NewJFrame extends javax.swing.JFrame {
         
         
 //        jTextArea1.setText("nama saya adalah "+nama1+"\nnim saya adalah "+nim1);        // TODO add your handling code here:
-    }//GEN-LAST:event_btnLoginActionPerformed
+    }                                        
 
-    private void txtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasswordActionPerformed
+    private void txtPasswordActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtPasswordActionPerformed
+    }                                           
 
 
     public static void main(String args[]) {
@@ -195,7 +187,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnregis;
     private javax.swing.JLabel jLabel1;
@@ -204,5 +196,5 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField txtPassword;
     private javax.swing.JTextField txtUsername;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
